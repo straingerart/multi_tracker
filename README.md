@@ -22,15 +22,29 @@ Check and Bypass CloudFlare (use HatCloud)
 Website Copier (use httrack) NEW!
 Host Info Scanner (use WhatWeb) NEW!
 # Install and Run in TERMUX
-pkg update &&  pkg install ruby python  python3 
+pkg update &&  pkg install ruby python  python3  
+
+
 pkg install httrack whatweb
+
+
 git clone https://github.com/straingerart/multi_tracker.git
+
+
 cd multi_tracker
+
+unzip multi_tracker.zip
+
 chmod +x *
+
 pip3 install -r requirements.txt
+
 pip install -r requirements.txt
+
 python3 billcipher.py
+
 # Install and Run in Windows
+
 Download and run Python 2.7.x and Python 3.7 setup file from Python.org:
 
 In Customize Python 2.7.x, find Add python.exe to Path and select Will be installed on local hard drive.
@@ -42,10 +56,19 @@ Download and run Git setup file from Git-scm.com, choose Use Git from Windows Co
 Afther that, Run Command Propmt and enter these commands:
 
 git clone https://github.com/straingerart/multi_tracker.git
+
 cd multi_tracker
+
+unzip multi_tracker.zip
+
+chmod +x *
+
 pip install -r requirements.txt
+
 pip3 install -r requirements.txt
+
 python3 billcipher.py
+
 # To-do list
 Create a own version for the Hacker's OS like Kali Linux, ParrotSec (Kali version)
 Add more features
